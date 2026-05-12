@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="340" viewBox="0 0 920 340" role="img" aria-labelledby="title desc">
+  <title id="title">microGPT throughput comparison</title>
+  <desc id="desc">Throughput bars comparing TALOS-V2 FPGA, vixha microgpt-c on Ryzen, and M1 Pro strict pos5 cumulative median and best results.</desc>
+  <rect width="920" height="340" fill="#ffffff"/>
+  <text x="40" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">microGPT throughput</text>
+  <text x="40" y="72" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">single stream, tokens/sec</text>
+  <line x1="180" y1="285" x2="880" y2="285" stroke="#d1d5db" stroke-width="1"/>
+  <text x="180" y="308" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">0</text>
+  <text x="480" y="308" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">~10M</text>
+  <text x="810" y="308" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">~22M</text>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#111827">
+    <text x="40" y="118">TALOS-V2 FPGA</text>
+    <text x="40" y="168">microgpt-c Ryzen</text>
+    <text x="40" y="218">M1 Pro pos=5 median</text>
+    <text x="40" y="268">M1 Pro pos=5 best</text>
+  </g>
+  <rect x="180" y="96" width="3" height="28" rx="4" fill="#94a3b8"/>
+  <rect x="180" y="146" width="86" height="28" rx="4" fill="#60a5fa"/>
+  <rect x="180" y="196" width="648" height="28" rx="4" fill="#10b981"/>
+  <rect x="180" y="246" width="730" height="28" rx="4" fill="#059669"/>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700">
+    <text x="194" y="115" fill="#374151">53k</text>
+    <text x="278" y="165" fill="#374151">2.6M</text>
+    <text x="840" y="215" fill="#065f46">19.57M</text>
+    <text x="792" y="265" fill="#ffffff">22.03M</text>
+  </g>
+</svg>

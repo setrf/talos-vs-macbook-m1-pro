@@ -12,6 +12,10 @@ median: 19,570,123 tok/sec
 best:   22,028,712 tok/sec
 ```
 
+![Throughput comparison](charts/throughput.svg)
+
+![Speedup comparison](charts/speedup.svg)
+
 Correctness gates:
 
 ```text
@@ -35,6 +39,14 @@ This is not a generated-output cache. It is exact distribution
 precomputation.
 
 Tradeoff: the pos=5 table uses roughly 1.8 GiB of memory at startup.
+
+```mermaid
+flowchart LR
+    A["weights"] --> B["enumerate all histories through pos=5"]
+    B --> C["exact cumulative distributions"]
+    C --> D["live RNG sampling"]
+    D --> E["same tokens as strict reference"]
+```
 
 ## Run
 
