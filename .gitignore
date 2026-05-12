@@ -1,0 +1,4 @@
+assets/
+bench
+__pycache__/
+.DS_Store
