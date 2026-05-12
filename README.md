@@ -1,20 +1,29 @@
 # microGPT pos=5 breakthrough
 
-Tiny TALOS-V2/microGPT inference on Apple Silicon, reduced to the strict
-pos=5 cumulative-table breakthrough.
+Tiny TALOS-V2/microGPT inference on an Apple M1 Pro, reduced to the
+strict pos=5 cumulative-table breakthrough.
 
 ## Result
 
-Validated single-stream result:
+Validated 5-run single-stream result:
 
 ```text
-median: 19,570,123 tok/sec
-best:   22,028,712 tok/sec
+median: 28,165,761 tok/sec
+best:   31,424,800 tok/sec
 ```
 
 ![Throughput comparison](charts/throughput.svg)
 
 ![Speedup comparison](charts/speedup.svg)
+
+Benchmark environment:
+
+```text
+Hardware: Apple M1 Pro
+macOS:    26.4.1 (Darwin 25.4.0)
+Compiler: Apple clang 21.0.0
+Runs:     28.17M, 30.86M, 31.42M, 26.30M, 25.87M tok/sec
+```
 
 Correctness gates:
 

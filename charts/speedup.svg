@@ -3,17 +3,17 @@
   <desc id="desc">Speedup bars showing M1 Pro strict pos5 cumulative median versus TALOS-V2 FPGA and vixha microgpt-c Ryzen numbers.</desc>
   <rect width="920" height="260" fill="#ffffff"/>
   <text x="40" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Speedup from exact pos=5 precompute</text>
-  <text x="40" y="72" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">using 19.57M tok/sec median</text>
+  <text x="40" y="72" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">using 28.17M tok/sec median</text>
   <g font-family="Arial, sans-serif" font-size="15" fill="#111827">
     <text x="40" y="126">vs TALOS-V2 FPGA</text>
     <text x="40" y="186">vs microgpt-c Ryzen</text>
   </g>
   <rect x="210" y="104" width="660" height="34" rx="5" fill="#7c3aed"/>
   <rect x="210" y="164" width="13" height="34" rx="5" fill="#2563eb"/>
-  <text x="732" y="127" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">~369x</text>
-  <text x="236" y="187" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">~7.5x</text>
+  <text x="732" y="127" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">~531x</text>
+  <text x="236" y="187" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">~10.8x</text>
   <line x1="210" y1="220" x2="870" y2="220" stroke="#d1d5db" stroke-width="1"/>
   <text x="210" y="242" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">0x</text>
-  <text x="520" y="242" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">~180x</text>
-  <text x="835" y="242" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">~369x</text>
+  <text x="520" y="242" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">~265x</text>
+  <text x="835" y="242" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">~531x</text>
 </svg>
